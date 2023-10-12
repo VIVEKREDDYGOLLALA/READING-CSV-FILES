@@ -1,5 +1,5 @@
 CSV Data Processor
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This Python script provides functions to parse and process CSV data. It includes features to handle headers, values, and create dictionaries for each item in the data.
 
 Functions:
@@ -14,13 +14,13 @@ This function creates a dictionary where the elements of values become the value
 
 4.read_csv(path)
 This function reads a CSV file from the specified path, processes the data, and returns a list of dictionaries representing the items.
-----------------------------------------------------------------------------------------------------------------------------------------
+
 Usage
 python<>
 Copy code
 data_dict = read_csv('reading files/deniro.csv')
 print(data_dict)
--------------------------------------------------------------------------------------------------------------------------------------------
+
 Instructions::
 1.Ensure you have a CSV file named deniro.csv in the reading files directory.
 2.Use the read_csv() function to read and process the data.
